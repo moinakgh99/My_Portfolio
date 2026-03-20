@@ -59,7 +59,7 @@ function Contact() {
                     <label htmlFor="cf-name">Name</label>
                     <input
                       id="cf-name"
-                      name="user_name" // ✅ IMPORTANT
+                      name="user_name" 
                       type="text"
                       placeholder="Your Name"
                       required
@@ -70,7 +70,7 @@ function Contact() {
                     <label htmlFor="cf-email">Email</label>
                     <input
                       id="cf-email"
-                      name="user_email" // ✅ IMPORTANT
+                      name="user_email" 
                       type="email"
                       placeholder="you@example.com"
                       required
@@ -82,7 +82,7 @@ function Contact() {
                   <label htmlFor="cf-subject">Subject</label>
                   <input
                     id="cf-subject"
-                    name="subject" // ✅ IMPORTANT
+                    name="subject" 
                     type="text"
                     placeholder="Project enquiry / Collaboration"
                   />
@@ -92,7 +92,7 @@ function Contact() {
                   <label htmlFor="cf-message">Message</label>
                   <textarea
                     id="cf-message"
-                    name="message" // ✅ IMPORTANT
+                    name="message" 
                     placeholder="Tell me about your idea…"
                     required
                   ></textarea>

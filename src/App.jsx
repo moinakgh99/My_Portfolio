@@ -22,7 +22,7 @@ function App() {
       initCursor();
       initSkillBars();
       initContactForm();
-    }, 100); // <-- THIS FIXES YOUR ISSUE
+    }, 100); 
   }, []);
 
   return (

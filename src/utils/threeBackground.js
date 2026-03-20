@@ -1,11 +1,4 @@
-// ============================================================
-//  utils/threeBackground.js — Three.js animated hero canvas
-// ============================================================
-
-import * as THREE from "three"; // ← ADDED (for React/Vite projects)
-
-// Creates an interactive particle field with floating nodes
-// and connecting lines, responding to mouse movement.
+import * as THREE from "three"; 
 
 function initThreeBackground(canvasId) {
   const canvas = document.getElementById(canvasId);
@@ -221,4 +214,4 @@ function initThreeBackground(canvasId) {
   animate();
 }
 
-export { initThreeBackground }; // ← ADDED (so React can use it)
+export { initThreeBackground }; 

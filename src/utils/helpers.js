@@ -1,7 +1,3 @@
-// ============================================================
-//  utils/helpers.js — Utility functions
-// ============================================================
-
 /**
  * Scroll-reveal: observe elements with class .reveal
  * and add .visible when they enter the viewport
