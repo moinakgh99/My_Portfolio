@@ -26,7 +26,7 @@ function Contact() {
 
               <div className="contact-detail">
                 <div className="contact-icon">📍</div>
-                <span>India (Remote OR Onsite)</span>
+                <span>Open to Remote / Onsite Opportunities</span>
               </div>
 
               <div className="contact-socials">
@@ -59,7 +59,7 @@ function Contact() {
                     <label htmlFor="cf-name">Name</label>
                     <input
                       id="cf-name"
-                      name="user_name" 
+                      name="user_name"
                       type="text"
                       placeholder="Your Name"
                       required
@@ -70,9 +70,9 @@ function Contact() {
                     <label htmlFor="cf-email">Email</label>
                     <input
                       id="cf-email"
-                      name="user_email" 
+                      name="user_email"
                       type="email"
-                      placeholder="you@example.com"
+                      placeholder="your@email.com"
                       required
                     />
                   </div>
@@ -82,9 +82,9 @@ function Contact() {
                   <label htmlFor="cf-subject">Subject</label>
                   <input
                     id="cf-subject"
-                    name="subject" 
+                    name="subject"
                     type="text"
-                    placeholder="Project enquiry / Collaboration"
+                    placeholder="Project / Collaboration Opportunity"
                   />
                 </div>
 
@@ -92,15 +92,15 @@ function Contact() {
                   <label htmlFor="cf-message">Message</label>
                   <textarea
                     id="cf-message"
-                    name="message" 
-                    placeholder="Tell me about your idea…"
+                    name="message"
+                    placeholder="Tell me about your project, idea, or opportunity..."
                     required
                   ></textarea>
                 </div>
 
                 <div className="form-submit">
                   <span className="form-note">
-                    I'll reply within <span className="accent">24 hrs</span>
+                    I'll respond within <span className="accent">24 hours</span>
                   </span>
 
                   <button type="submit" className="btn btn-primary">
@@ -116,8 +116,10 @@ function Contact() {
                 style={{ display: "none" }}
               >
                 <span className="check">✅</span>
-                <strong>Message sent!</strong>
-                <span>Thanks — I'll be in touch soon.</span>
+                <strong>Message sent successfully!</strong>
+                <span>
+                  Appreciate you reaching out — I'll get back to you soon.
+                </span>
               </div>
             </div>
           </div>

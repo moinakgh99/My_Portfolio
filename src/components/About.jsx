@@ -29,22 +29,22 @@ function About() {
           {/* Text side */}
           <div className="about-text reveal reveal-delay-2">
             <p>
-              Hey! I'm <strong>Moinak Ghosh</strong>, A full stack developer
-              (MERN) passionate about building responsive, user-friendly, and
-              visually appealing web applications.
+              Hey! I'm <strong>Moinak Ghosh</strong>, a Frontend Developer
+              (React) focused on building responsive, scalable, and visually
+              engaging web applications.
             </p>
 
             <p>
-              I enjoy combining clean code with thoughtful design to build
-              intuitive and user-friendly web applications. I primarily work
-              within the <strong>JavaScript ecosystem</strong>, especially React
-              and Node.js, to develop modern full-stack applications.
+              I enjoy combining clean code with modern UI/UX principles to
+              create intuitive digital experiences. I primarily work within the{" "}
+              <strong>JavaScript ecosystem</strong>, especially React, while
+              expanding my backend knowledge with Node.js and Express.
             </p>
 
             <p>
-              When I'm not coding, I enjoy exploring new technologies, enhancing
-              my skills, and building personal projects to create better and
-              more efficient web applications.
+              I am passionate about continuous learning and building real-world
+              projects that solve meaningful problems, while strengthening my
+              skills in frontend development, APIs, and scalable systems.
             </p>
           </div>
         </div>

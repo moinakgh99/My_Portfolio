@@ -12,7 +12,7 @@ function Hero() {
     if (el) {
       typeWriter(el, [
         "Moinak Ghosh",
-        "FullStack Developer",
+        "Frontend Developer",
         "Open Source Enthusiast",
       ]);
     }
@@ -35,7 +35,7 @@ function Hero() {
       <div className="hero-content">
         <div className="hero-badge">
           <span className="dot"></span>
-          Available for Hire
+          Available for Opportunities
         </div>
 
         <h1 className="hero-name">
@@ -47,14 +47,15 @@ function Hero() {
         </h1>
 
         <p className="hero-subtitle">
-          <span className="hl">★</span> FullStack Developer
+          <span className="hl">★</span> Frontend Developer
           <span className="hl"> &amp; </span> Open-Source Enthusiast
+          <span className="hl"> &amp; </span> Exploring Backend & AI
         </p>
 
         <p className="hero-tagline">
-          I build full-stack web applications using the MERN stack, transforming
-          ideas into scalable, responsive, and user-friendly digital
-          experiences.
+          I build responsive, scalable, and high-performance web applications
+          using modern frontend technologies, with a strong focus on clean UI,
+          seamless user experience, and real-world problem solving.
         </p>
 
         <div className="hero-btns">

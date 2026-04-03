@@ -16,17 +16,18 @@ function Experience() {
             <div className="timeline-card">
               <p className="timeline-period">Sep 2025 – Nov 2025</p>
               <h3 className="timeline-role">
-                Project Lead — AI Network Intrusion Detection System
+                AIML Project Intern — Network Intrusion Detection System
               </h3>
+
               <p className="timeline-company">
                 @ Infosys Springboard Virtual Internship 6.0
               </p>
 
               <p className="timeline-desc">
-                Led development of an AI-powered Network Intrusion Detection
-                System using machine learning to analyze traffic and detect
-                threats in real time. Built an interactive Streamlit dashboard
-                for visualization.
+                Developed an AI-powered Network Intrusion Detection System
+                (NIDS) using machine learning models to analyze network traffic
+                and detect anomalies in real time. Built an interactive
+                Streamlit dashboard for visualization and insights.
               </p>
 
               <div className="timeline-tags">
@@ -123,8 +124,8 @@ function Experience() {
 
               <ul className="timeline-desc">
                 <li>Scored 92.8%</li>
-                <li>Secured 2nd position in Science stream</li>
-                <li>Secured 3rd position overall in school</li>
+                <li>Ranked 2nd in Science stream</li>
+                <li>Ranked 3rd overall in school</li>
               </ul>
             </div>
           </div>
@@ -140,7 +141,7 @@ function Experience() {
 
               <ul className="timeline-desc">
                 <li>Scored 94.8%</li>
-                <li>Secured 3rd position in school</li>
+                <li>Ranked 3rd in school</li>
               </ul>
             </div>
           </div>

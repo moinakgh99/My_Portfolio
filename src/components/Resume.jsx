@@ -11,11 +11,11 @@ function Resume() {
           <span className="resume-icon">📄</span>
           <h3 class="resume-name">Moinak Ghosh</h3>
           <p>
-            A passionate frontend-focused full stack developer (MERN) skilled in
-            building responsive and scalable web applications using React and
-            modern JavaScript. Actively seeking full-time or internship
-            opportunities to learn, contribute, and grow in a dynamic
-            environment.
+            A frontend developer specializing in React, focused on building
+            responsive, scalable, and user-centric web applications. Currently
+            expanding backend knowledge (Node.js, Express) while actively
+            developing real-world projects and strengthening problem-solving
+            skills.
           </p>
           <div className="resume-btns">
             <a
@@ -31,12 +31,12 @@ function Resume() {
           <div className="resume-highlights">
             <div className="resume-hl">
               <span className="hl-dot"></span>
-              Open to Remote
+              Open to Opportunities
             </div>
 
             <div className="resume-hl">
               <span className="hl-dot"></span>
-              Full-Stack Expertise
+              Frontend-focused Full Stack Development (MERN – Learning Backend)
             </div>
           </div>
         </div>

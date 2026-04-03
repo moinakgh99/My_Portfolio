@@ -8,9 +8,10 @@ function Skills() {
         <h2 className="section-title reveal">Skills & Tech</h2>
 
         <p className="skills-intro reveal reveal-delay-1">
-          My skill set is focused on frontend development, from designing clean
-          and responsive interfaces to building user-friendly web applications,
-          while also working with the MERN stack for full-stack development.
+          My skill set is centered around frontend development, focusing on
+          building responsive, scalable, and user-friendly web applications
+          using modern technologies, while actively expanding my backend
+          knowledge within the MERN ecosystem.
         </p>
 
         <div className="skills-grid">
@@ -61,7 +62,7 @@ function Skills() {
 
           {/* Backend */}
           <div className="skill-category reveal reveal-delay-3">
-            <h3>PROGRAMMING</h3>
+            <h3>PROGRAMMING & PROBLEM SOLVING</h3>
 
             <div className="skill-item">
               <div className="skill-header">
@@ -104,15 +105,15 @@ function Skills() {
           <span className="tech-pill">Postman</span>
           <span className="tech-pill">Vercel</span>
           <span className="tech-pill">Three.js</span>
-          <span className="tech-pill">Express.js</span>
-          <span className="tech-pill">Node.js.js</span>
+          <span className="tech-pill">Express.js (Learning)</span>
+          <span className="tech-pill">Node.js (Learning)</span>
           <span className="tech-pill">Framer Motion</span>
           <span className="tech-pill">Tailwind</span>
           <span className="tech-pill">Bootstrap</span>
           <span className="tech-pill">Git</span>
-          <span className="tech-pill">Git-Hub</span>
-          <span className="tech-pill">APIs</span>
-          <span className="tech-pill">Visual Studio Code</span>
+          <span className="tech-pill">GitHub</span>
+          <span className="tech-pill">REST APIs</span>
+          <span className="tech-pill">VS Code</span>
         </div>
       </div>
     </section>

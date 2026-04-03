@@ -21,8 +21,9 @@ function Projects() {
 
               <p className="project-desc">
                 AI-powered Network Intrusion Detection System that analyzes
-                network traffic and identifies malicious activity in real time,
-                with an interactive dashboard for monitoring and insights.
+                network traffic to detect anomalies and cyber threats in real
+                time, featuring an interactive dashboard for monitoring,
+                visualization, and insights.
               </p>
 
               <div className="project-stack">
@@ -69,11 +70,10 @@ function Projects() {
               <h3 className="project-title">Durlassa</h3>
 
               <p className="project-desc">
-                Women-centric safety platform designed to enhance personal
-                security through technology, awareness, and community support.
-                The platform focuses on providing real-time safety tools,
-                emergency assistance, and a supportive ecosystem to empower
-                women in vulnerable situations.
+                Women safety application featuring real-time GPS tracking, SOS
+                alerts, and route safety analysis. Focused on building a
+                responsive and user-centric frontend using React while
+                collaborating on backend integration.
               </p>
 
               <div className="project-stack">
@@ -115,9 +115,9 @@ function Projects() {
               <h3 className="project-title">Weathix</h3>
 
               <p className="project-desc">
-                Smart weather application providing real-time forecasts, dynamic
-                visualizations, and accurate climate insights through a clean
-                and interactive interface.
+                Interactive weather application providing real-time forecasts
+                and dynamic data visualization through a clean, responsive, and
+                intuitive user interface.
               </p>
 
               <div className="project-stack">
