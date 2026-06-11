@@ -1,16 +1,73 @@
-# React + Vite
+# 🌐 My Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive portfolio website built to showcase my projects, technical skills, achievements, and development journey.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **Website:** [Visit Portfolio](https://moinakghosh.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+* 🎨 Modern & Clean UI Design
+* 📱 Fully Responsive Across Devices
+* ⚡ Smooth Navigation & User Experience
+* 🚀 Project Showcase Section
+* 🏆 Certifications & Achievements
+* 📬 Contact & Social Links
+* 🌙 Optimized Performance & Accessibility
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,javascript,tailwind,html,css" />
+
+</div>
+
+---
+
+## 🎯 What I Learned
+
+* Building scalable React applications
+* Creating reusable UI components
+* Responsive web design principles
+* Performance optimization techniques
+* Modern frontend development workflows
+
+---
+
+## 🌐 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/moinak-ghosh-mernstack/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+
+<a href="https://github.com/moinakgh99">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+<a href="mailto:ghoshjimoinak@gmail.com">
+<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
+</a>
+
+</p>
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star ⭐
+
+---
+
+<div align="center">
+
+### 🚀 Turning Ideas Into Real-World Digital Experiences
+
+</div>
