@@ -9,7 +9,71 @@ function Experience() {
         <h2 className="section-title reveal">Experience &amp; Education</h2>
 
         <div className="timeline">
-          {/* 1 — Internship */}
+
+          {/* HackWithInfy 2026 Round 2 */}
+          <div className="timeline-item reveal">
+            <div className="timeline-dot"></div>
+
+            <div className="timeline-card">
+              <p className="timeline-period">22 April 2026</p>
+
+              <h3 className="timeline-role">
+                Qualified Round 2 — HackWithInfy 2026
+              </h3>
+
+              <p className="timeline-company">
+                @ Infosys National-Level Coding Competition
+              </p>
+
+              <p className="timeline-desc">
+                Advanced to Round 2 of HackWithInfy 2026 by showcasing strong
+                analytical thinking, algorithmic problem-solving, coding
+                accuracy, and efficient implementation skills in a highly
+                competitive national-level coding assessment conducted by
+                Infosys.
+              </p>
+
+              <div className="timeline-tags">
+                <span className="tl-chip">Algorithms</span>
+                <span className="tl-chip">Data Structures</span>
+                <span className="tl-chip">Coding Efficiency</span>
+                <span className="tl-chip">Logical Reasoning</span>
+              </div>
+            </div>
+          </div>
+
+          {/* HackWithInfy 2026 Round 1 */}
+          <div className="timeline-item reveal">
+            <div className="timeline-dot"></div>
+
+            <div className="timeline-card">
+              <p className="timeline-period">28 March 2026</p>
+
+              <h3 className="timeline-role">
+                Qualified Round 1 — HackWithInfy 2026
+              </h3>
+
+              <p className="timeline-company">
+                @ Infosys National-Level Coding Competition
+              </p>
+
+              <p className="timeline-desc">
+                Successfully qualified Round 1 of HackWithInfy 2026 by
+                demonstrating strong proficiency in Data Structures &
+                Algorithms, problem-solving and coding efficiency under
+                competitive assessment conditions among a large pool of
+                engineering students across India.
+              </p>
+
+              <div className="timeline-tags">
+                <span className="tl-chip">DSA</span>
+                <span className="tl-chip">Problem Solving</span>
+                <span className="tl-chip">Competitive Programming</span>
+              </div>
+            </div>
+          </div>
+
+          {/* — Internship */}
           <div className="timeline-item reveal">
             <div className="timeline-dot"></div>
 
@@ -42,7 +106,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* 2 — Freelancing */}
+          {/* Freelancing */}
           <div className="timeline-item reveal">
             <div className="timeline-dot"></div>
 
@@ -64,7 +128,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* 3 — Webathon Achievement (NEW CARD) */}
+          {/* Webathon Achievement */}
           <div className="timeline-item reveal">
             <div className="timeline-dot"></div>
 
@@ -91,7 +155,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* 4 — B.Tech */}
+          {/* B.Tech */}
           <div className="timeline-item reveal">
             <div className="timeline-dot"></div>
 
@@ -113,7 +177,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* 5 — Class 12 */}
+          {/*  Class 12 */}
           <div className="timeline-item reveal">
             <div className="timeline-dot"></div>
 
@@ -130,7 +194,7 @@ function Experience() {
             </div>
           </div>
 
-          {/* 6 — Class 10 */}
+          {/*  Class 10 */}
           <div className="timeline-item reveal">
             <div className="timeline-dot"></div>
 
