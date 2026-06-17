@@ -4,7 +4,7 @@ function initThreeBackground(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
 
-  // ── Renderer ────────────────────────────────────────────────
+  // Renderer 
   const renderer = new THREE.WebGLRenderer({
     canvas,
     antialias: true,
@@ -15,7 +15,7 @@ function initThreeBackground(canvasId) {
   renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
   renderer.setClearColor(0x000000, 0);
 
-  // ── Scene / Camera ───────────────────────────────────────────
+  //  Scene / Camera 
   const scene = new THREE.Scene();
 
   const camera = new THREE.PerspectiveCamera(
@@ -27,7 +27,7 @@ function initThreeBackground(canvasId) {
 
   camera.position.z = 80;
 
-  // ── Particles (nodes) ───────────────────────────────────────
+  //  Particles (nodes) 
   const PARTICLE_COUNT = 180;
   const positions = new Float32Array(PARTICLE_COUNT * 3);
   const nodeData = [];
@@ -64,7 +64,7 @@ function initThreeBackground(canvasId) {
   const points = new THREE.Points(pGeo, pMat);
   scene.add(points);
 
-  // ── Connection lines ─────────────────────────────────────────
+  //  Connection lines 
   const MAX_CONNECTIONS = 280;
   const linePositions = new Float32Array(MAX_CONNECTIONS * 6);
 
@@ -82,7 +82,7 @@ function initThreeBackground(canvasId) {
 
   scene.add(lineMat);
 
-  // ── Floating accent spheres ──────────────────────────────────
+  //  Floating accent spheres 
   const spheres = [];
 
   for (let i = 0; i < 6; i++) {
@@ -118,7 +118,7 @@ function initThreeBackground(canvasId) {
     spheres.push(mesh);
   }
 
-  // ── Mouse interaction ────────────────────────────────────────
+  // Mouse interaction 
   const mouse = { x: 0, y: 0 };
 
   document.addEventListener("mousemove", (e) => {
@@ -126,7 +126,7 @@ function initThreeBackground(canvasId) {
     mouse.y = (e.clientY / window.innerHeight - 0.5) * 2;
   });
 
-  // ── Resize handler ───────────────────────────────────────────
+  // Resize handler
   function onResize() {
     const w = canvas.parentElement.offsetWidth;
     const h = canvas.parentElement.offsetHeight;
@@ -139,7 +139,7 @@ function initThreeBackground(canvasId) {
 
   window.addEventListener("resize", onResize);
 
-  // ── Animation loop ───────────────────────────────────────────
+  //  Animation loop 
   let lineCount = 0;
   const CONNECT_DIST = 28;
 

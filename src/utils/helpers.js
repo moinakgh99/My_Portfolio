@@ -1,7 +1,4 @@
-/**
- * Scroll-reveal: observe elements with class .reveal
- * and add .visible when they enter the viewport
- */
+
 function initScrollReveal() {
   const elements = document.querySelectorAll(".reveal");
 
@@ -12,7 +9,6 @@ function initScrollReveal() {
 
         const el = entry.target;
 
-        // stagger effect using inline delay
         el.style.transitionDelay = "0.1s";
 
         el.classList.add("visible");
@@ -22,7 +18,7 @@ function initScrollReveal() {
     },
     {
       threshold: 0.2,
-      rootMargin: "0px 0px -50px 0px", // trigger slightly earlier
+      rootMargin: "0px 0px -50px 0px", 
     },
   );
 
@@ -70,8 +66,8 @@ function typeWriter(el, words, typeSpeed = 90, deleteSpeed = 50, pause = 1800) {
   tick();
 }
 
-/**
- * Animate skill progress bars when they enter the viewport
+/*
+  Animate skill progress bars when they enter the viewport
  */
 function initSkillBars() {
   const bars = document.querySelectorAll(".skill-bar-fill");
@@ -91,8 +87,8 @@ function initSkillBars() {
   bars.forEach((bar) => observer.observe(bar));
 }
 
-/**
- * Custom cursor
+/*
+ Custom cursor
  */
 function initCursor() {
   const dot = document.getElementById("cursor");
@@ -100,9 +96,9 @@ function initCursor() {
   if (!dot || !ring) return;
 
   let rx = 0,
-    ry = 0; // ring position (lerped)
+    ry = 0; 
   let mx = 0,
-    my = 0; // mouse position
+    my = 0; 
 
   document.addEventListener("mousemove", (e) => {
     mx = e.clientX;
@@ -134,9 +130,6 @@ function initCursor() {
   });
 }
 
-/**
- * Navbar active link on scroll + scrolled class
- */
 function initNavbar() {
   const nav = document.querySelector(".navbar");
   const links = document.querySelectorAll(".nav-links a");
@@ -169,7 +162,7 @@ function initNavbar() {
         ? "hidden"
         : "";
     });
-    mobileMenu.querySelectorAll("a").forEach((a) => {
+    mobileMenu.querySelectorAll("a").forEach((a) => { 
       a.addEventListener("click", () => {
         toggle.classList.remove("open");
         mobileMenu.classList.remove("open");
@@ -179,8 +172,8 @@ function initNavbar() {
   }
 }
 
-/**
- * Contact form
+/*
+ Contact form
  */
 
 import emailjs from "emailjs-com";
@@ -209,7 +202,7 @@ function initContactForm() {
         form.style.display = "none";
         if (successEl) successEl.style.display = "flex";
 
-        form.reset(); // optional reset
+        form.reset(); 
       })
       .catch((error) => {
         console.error("EmailJS Error:", error);
