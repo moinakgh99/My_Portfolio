@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Experience from "./components/Experience";
 import Resume from "./components/Resume";
 import Contact from "./components/Contact";
+import AudioPlayer from "./components/AudioPlayer";
 
 import {
   initCursor,
@@ -35,6 +36,7 @@ function App() {
       <Experience />
       <Resume />
       <Contact />
+      <AudioPlayer />
     </>
   );
 }

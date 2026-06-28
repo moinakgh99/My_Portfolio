@@ -4,6 +4,7 @@ import "./styles/Cursor.css";
 import "./index.css";
 import "./styles/variables.css"; 
 import { Analytics } from "@vercel/analytics/react";
+import "./styles/AudioPlayer.css";
 
 import App from "./App.jsx";
 
